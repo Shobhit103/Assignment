@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+   <script defer src="forms.js"></script> 
+</head>
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/tacos" id="form">
+        <div>
+        <label for="Firstname">First Name</label>
+      <input type="text" placeholder="First name" id="first_name" name="First_name" required>
+         <label for="Lastname">Last Name</label>
+      <input type="text" placeholder="Last name" id="Lastname" name="Last_name" required>
+      </div>
+      <p>Select a race:</p>
+     <div>
+       <input type="radio" id="fun" required name="race" value="fun">
+        <label for="fun">fun run 5k</label>
+        </div>
+       <div>
+       <input type="radio" id="half" required name="race" value="half">
+        <label for="half">Half marathon</label>
+        </div>
+        <div>
+       <input type="radio" id="full" required name="race" value="full">
+       <label for="full">Full marathon</label>
+       </div>
+       <div>
+        <label for="email">Email</label>
+      <input type="email" placeholder="email" id="email" name="email" required>
+       <label for="password">password</label>
+      <input type="password" placeholder="password" id="password" name="password" required>
+      </div>
+      <div>
+        <label for="address">address</label>
+        <input type="text" placeholder="address" id="address" name="address" required>
+        <label for="number">Mobile number</label>
+        <input type="text" placeholder="Mobile number" id="number" name="Mobile number" required>
+      </div>
+      <div>
+        <label for="division">Select age group</label>
+      <select name="division" id="division" required>
+        <option value="kids">under 18</option>
+        <option value="adult teen">18-30</option>
+        <option value="adults">30-50</option>
+      </select>
+      </div>
+      <button>Register!</button>
+    </form>
+    <div id="errors"></div>
+   <!--http://127.0.0.1:5500/tacos?First_name=shobhit&Last_name=aggarwal&race=fun&email=21cdo1036%40cuchd.in&password=abcd&address=soqwhhwe&Mobile+number=8527421633&division=kids-->
+</body>
+</html>

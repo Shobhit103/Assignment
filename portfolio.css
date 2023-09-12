@@ -1,0 +1,63 @@
+/* portfolio.css */
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Add some spacing and center the content */
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  background-color: #007BFF;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+/* Style the sections */
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Style the skills list */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  background-color: #007BFF;
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+}
